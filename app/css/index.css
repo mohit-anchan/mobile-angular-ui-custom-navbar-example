@@ -1,0 +1,71 @@
+
+
+
+.backGr { background: red !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+.app-content-loading {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.loading-spinner {
+  position: absolute;
+  font-size: 50px;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+/* ignoring the padding-top value of original -app-body class */
+.app-body-custom {
+  display: block;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-absolute-bottom .btn-navbar, .navbar-absolute-bottom .btn{
+  line-height: 20px;
+  padding-top: 5px;
+}
+
+.navbar-absolute-bottom .btn i{
+  display:block;
+}
+
+.navbar-absolute-bottom .btn span{
+  font-size:9px;
+}
+
+/* For Navbar header after login screen */
+.header-small {
+  position:absolute;
+  top:0px;
+  left:40px;
+}
+
+.header-text {
+  position:absolute;
+  left:25px;
+  padding-top: 15px;
+  overflow: hidden; 
+  margin-left: 70px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+/* reducing the padding between navbar and body content */
+.has-navbar-top .app-body {
+  padding-top: 20px;
+}
+
+/* Custom navbar color */
+.navbar-app {
+  background: #4EB22A;
+  color: #F0FFFF;
+}

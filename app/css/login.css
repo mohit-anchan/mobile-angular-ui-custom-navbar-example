@@ -1,0 +1,16 @@
+
+
+/* Fix the height of the div for Image hdr */
+.navbar-brand {
+	padding: 0px;
+}
+
+/* This enables the Header image to scale up/down along with screen size */
+.navbar-brand-center {
+	position: static;
+}
+
+/* Reducing the gap between navbar and Login screen */
+.has-navbar-top .app-body{
+	padding-top: 9vw;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html ng-app="CustomNavbarApp">
+    <head>
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        
+        <link rel="stylesheet" type="text/css" href="bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-base.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js"></script>
+        <script type="text/javascript" src="bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.gestures.min.js"></script>
+
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/Controllers/Controllers.js"></script>
+        <title>Custom Navbar App</title>
+    </head>
+    <body>
+
+        <!-- Navbars -->
+        <div class="navbar navbar-app navbar-absolute-top">
+            <!-- 'ui-yield-to' acts as a placeholder that is to be placed inside index.html. 
+                Then inside child views, use 'ui-content-for' to replace the contents of ui-yield-to.
+            -->
+            <div class="navbar-brand navbar-brand-center" ui-yield-to="custom-header">
+                <div class="header-small">
+                    <img src="img/header-small.png" />
+                </div>
+                <div class="header-text" ui-yield-to="title">
+                    <span>My Custom Navbar</span>
+                </div>
+            </div>
+            
+            <div class="btn-group pull-left"  ng-show="showHomeAndBackBtn">
+                <a href="#/home" class="btn">
+                    <i class="fa fa-chevron-left fa-navbar"></i> 
+                </a>
+            </div>
+
+            <div class="btn-group pull-right"  ng-show="isLoggedIn">
+                <a href="#/login" class="btn">
+                    <i class="fa fa-power-off fa-navbar"></i> 
+                </a>
+            </div>
+
+            <div class="btn-group pull-right"  ng-show="showHomeAndBackBtn">
+                <a href="#/home" class="btn">
+                    <i class="fa fa-home fa-navbar"></i> 
+                </a>
+            </div>
+        </div>
+
+
+        <!-- App Body -->
+        <div class="app-body" ng-class="{loading: loading}">
+            <div ng-show="loading" class="app-content-loading">
+                <i class="fa fa-spinner fa-spin loading-spinner"></i>
+            </div>
+            <div class="app-content">
+                <ng-view></ng-view>
+            </div>
+        </div>
+
+        <!-- ~ .app -->
+    </body>
+</html>

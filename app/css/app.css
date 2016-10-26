@@ -1,0 +1,42 @@
+
+
+body {
+	background: #FFFAF0;		
+}
+
+hr {
+	border-color: #F6AC2C;
+}
+
+/* Custom background for section class used in forms */
+.section {
+	background: #FFFAF0;		
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* Setting the Position to its default value i.e 'static' instead of absolute */
+.navbar-absolute-top {
+	position: static;
+}
+
+/* Overriding the default FONT color for NavBar contents */
+.navbar-app .btn-navbar, .navbar-app .btn {
+	color: #F0FFFF;
+}
+
+.navbar i{
+	font-size: 1.5em;
+}
+
+/* Removing underline from <a> tags */
+a, a:focus {
+    text-decoration: none;
+}
