@@ -4,6 +4,11 @@ This project is a simple example demonstrating the customization of Navbar in [m
 
 Although [mobile-angular-ui](http://mobileangularui.com/) is a very light-weight and a handy ui framework for mobile phones, it has a very minimal documentation and a barely existent user community on the web. So for beginners like me, it becomes very difficult and time-consuming to develop/design something that is outside of the demo features guide provided in the [mobile-angular-ui](http://mobileangularui.com/) website.
 
+## Demo
+
+[View Demo](https://plnkr.co/edit/y6hW8CRsO9sQRzSVbzt1?p=preview)
+
+Note: Resize the browser window to a smaller size (to simulate a mobile screen) for best view.
 
 ## About this app
 
