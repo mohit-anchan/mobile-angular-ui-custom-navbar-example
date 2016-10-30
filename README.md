@@ -1,8 +1,8 @@
 # Mobile-Angular-UI - Custom Navbar example (with show/hide navbar buttons)
 
-This project is a simple example demonstrating the customization of Navbar in [mobile-angular-ui](http://mobileangularui.com/) apps.
+This project is a simple example demonstrating the customization of Navbar in [mobile angular ui](http://mobileangularui.com/) apps.
 
-Although [mobile-angular-ui](http://mobileangularui.com/) is a very light-weight and a handy ui framework for mobile phones, it has a very minimal documentation and a barely existent user community on the web. So for beginners like me, it becomes very difficult and time-consuming to develop/design something that is outside of the demo features guide provided in the [mobile-angular-ui](http://mobileangularui.com/) website.
+Although [mobile angular ui](http://mobileangularui.com/) is a very light-weight and a handy ui framework for mobile phones, it has a very minimal documentation and a barely existent user community on the web. So for beginners like me, it becomes very difficult and time-consuming to develop/design something that is outside of the demo features guide provided in the [mobile angular ui](http://mobileangularui.com/) website.
 
 ## Demo
 
